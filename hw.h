@@ -4,7 +4,7 @@
 #include "types.h"
 
 
-u8* const HW_REGS =			(u8*)0x02000000;
+extern u8* const HW_REGS;
 
 /***** Hardware Register Mnemonics *****/
 #define	CCR		0x00	// Communication Control Register	(0x0200 0000)
